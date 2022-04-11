@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url('../fonts/bootstrap-icons.woff'), url('../fonts/bootstrap-icons.woff2');
+}
+
+@font-face {
+    font-family: "Charlie";
+    src: url('../fonts/Charlie.otf');
+}
+
+body {
+    font-family: 'Charlie' sans-serif;
+}
+
+* {
+    font-size: 1.01em;
+}
+
+header img {
+    width: 130px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.form-control-lg {
+    height: 80px;
+}
+
+.sectionmt {
+    background: rgb(238, 235, 255);
+    background: linear-gradient(90deg, rgba(238, 235, 255, 1) 0%, rgba(238, 235, 255, 1) 35%);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.1em;
+}
+
+.view {
+    width: 400px;
+    height: 400px;
+}
+
+.avis {
+    background-color: rgb(227, 253, 253);
+}
+
+.inscription {
+    background-color: blueviolet;
+}
+
+.store {
+    width: 150px;
+}
+
+footer section div div div a {
+    color: gray;
+    padding: 8px;
+}
+
+.atlassian {
+    margin-left: 450px;
+    width: 180px;
+    padding: 8px;
+}
+
+.copyright {
+    margin-left: 400px;
+}
